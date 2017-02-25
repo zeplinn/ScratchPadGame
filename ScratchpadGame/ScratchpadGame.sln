@@ -10,6 +10,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScratchpadGame", "Scratchpa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameEngine", "..\GameEngine\GameEngine.vcxproj", "{EF816F68-9E48-4B13-A764-4E91D14F1EA3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EngineTests", "..\EngineTests\EngineTests.vcxproj", "{92A625E5-B226-4C1F-BC71-A2A5015D9D93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +36,14 @@ Global
 		{EF816F68-9E48-4B13-A764-4E91D14F1EA3}.Release|x64.Build.0 = Release|x64
 		{EF816F68-9E48-4B13-A764-4E91D14F1EA3}.Release|x86.ActiveCfg = Release|Win32
 		{EF816F68-9E48-4B13-A764-4E91D14F1EA3}.Release|x86.Build.0 = Release|Win32
+		{92A625E5-B226-4C1F-BC71-A2A5015D9D93}.Debug|x64.ActiveCfg = Debug|x64
+		{92A625E5-B226-4C1F-BC71-A2A5015D9D93}.Debug|x64.Build.0 = Debug|x64
+		{92A625E5-B226-4C1F-BC71-A2A5015D9D93}.Debug|x86.ActiveCfg = Debug|Win32
+		{92A625E5-B226-4C1F-BC71-A2A5015D9D93}.Debug|x86.Build.0 = Debug|Win32
+		{92A625E5-B226-4C1F-BC71-A2A5015D9D93}.Release|x64.ActiveCfg = Release|x64
+		{92A625E5-B226-4C1F-BC71-A2A5015D9D93}.Release|x64.Build.0 = Release|x64
+		{92A625E5-B226-4C1F-BC71-A2A5015D9D93}.Release|x86.ActiveCfg = Release|Win32
+		{92A625E5-B226-4C1F-BC71-A2A5015D9D93}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

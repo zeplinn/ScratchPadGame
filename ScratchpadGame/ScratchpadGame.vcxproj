@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ScratchpadGame.cpp" />
+    <ClCompile Include="ScratchpadGame_moc.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ScratchpadGame.h" />

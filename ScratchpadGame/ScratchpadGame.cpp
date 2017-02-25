@@ -1,7 +1,7 @@
 #include <gl\glew.h>
 #include <cassert>
 #include <QtWidgets\qapplication.h>
-#include <QtWidgets\qopenglwidget.h>
+
 #include "ScratchpadGame.h"
 void ScratchpadGame::initializeGL()
 {
@@ -18,6 +18,9 @@ void ScratchpadGame::initializeGL()
 	};
 	glBufferData(GL_ARRAY_BUFFER, sizeof(verts), verts, GL_STATIC_DRAW);
 
+	connect(&qtimer, SIGNAL(timeout()), this, SLOT(timerUpdate()));
+	qtimer.start(0);
+
 }
 void ScratchpadGame::paintGL()
 {
@@ -26,6 +29,12 @@ void ScratchpadGame::paintGL()
 	glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 0, nullptr);;
 	glDrawArrays(GL_TRIANGLES, 0, 3);
 }
+
+void ScratchpadGame::timerUpdate()
+{
+
+}
+
 int main(int argc,char* argv[])
 {
 	QApplication app(argc, argv);
@@ -33,3 +42,4 @@ int main(int argc,char* argv[])
 	widget.show();
 	return app.exec();
 }
+
