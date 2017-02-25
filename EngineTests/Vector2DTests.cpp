@@ -34,7 +34,7 @@ TEST(Vector2D, ScalarMultiplication)
 	const float scalar1=2;
 	const float scalar2 = 3;
 	auto result1 = left * scalar1;
-	auto result2 = left * scalar2;
+	auto result2 = scalar2 *left;
 
 	EXPECT_FLOAT_EQ(p3*scalar1,result1.x);
 	EXPECT_FLOAT_EQ(p2*scalar1,result1.y);
