@@ -1,5 +1,5 @@
 #include <gtest\gtest.h>
-#include <Vector2D.h>
+#include <Math\Vector2D.h>
 using Math::Vector2D;
 const static float p1 = 2, p2 = 11, p3 = 5, p4 = 7;
 TEST(Vector2D, Constructor)
